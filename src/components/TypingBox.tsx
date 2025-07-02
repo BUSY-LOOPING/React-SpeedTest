@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import StatsDisplay from "./StatsDisplay";
 import { paragraphs } from "../data/paragraphs";
 
-const TEST_DURATION = 60;
+const TEST_DURATION = 30;
 
 const TypingBox = () => {
   const [input, setInput] = useState("");
